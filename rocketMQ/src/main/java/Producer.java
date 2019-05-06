@@ -64,7 +64,7 @@ public class Producer {
                             "OrderID061",// key
                             ("Hello MetaQ").getBytes());// body
                     SendResult sendResult = producer.send(msg);
-                    System.out.println(sendResult);
+                    System.out.println(sendResult );
                 }
             } catch (Exception e) {
                 e.printStackTrace();
